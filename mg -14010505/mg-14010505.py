@@ -27,6 +27,6 @@ print(10 + 8)
 # userfirstname -> lowercase
 
 
-print(50)
-print = 'hello'
-print(50)
+# print(50)
+# print = 'hello'
+# print(50)
