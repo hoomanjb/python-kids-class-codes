@@ -25,16 +25,3 @@ while True:
 
     else:
         print('gharar bood faghad adad bedi behem!!!')
-
-
-
-
-
-
-
-
-
-
-
-
-
