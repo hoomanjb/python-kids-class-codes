@@ -26,44 +26,44 @@
 # print(max(a))
 
 # ##############################################
-# import turtle
-#
-# t = turtle.Turtle()
-#
-# t.pensize(3)
-# t.speed(5)
-#
-#
-# def make_shape(a, b, c):
-#     t.color(c)
-#     t.begin_fill()
-#     for item in range(a):
-#         t.fd(50)
-#         t.lt(b)
-#     t.home()
-#     t.end_fill()
-#
-#
-# slide = int(input('shekle morede nazar chand zeli bashad? '))
-# angle = int(input('sekle che zavieii dashte bashad? '))
-# color = input('che rangi bashe? ')
-#
-# s = turtle.getscreen()
-# make_shape(slide, angle, color)
-#
-# turtle.mainloop()
-
-
-# ##################################################
 import turtle
-import random
 
-s = turtle.getscreen()
 t = turtle.Turtle()
 
 t.pensize(3)
-t.speed(0)
+t.speed(5)
 
+
+def make_shape(a, b, c):
+    t.color(c)
+    t.begin_fill()
+    for item in range(a):
+        t.fd(50)
+        t.lt(b)
+    t.home()
+    t.end_fill()
+
+
+slide = int(input('shekle morede nazar chand zeli bashad? '))
+angle = int(input('sekle che zavieii dashte bashad? '))
+color = input('che rangi bashe? ')
+
+s = turtle.getscreen()
+make_shape(slide, angle, color)
+
+turtle.mainloop()
+
+
+# ##################################################
+# import turtle
+# import random
+#
+# s = turtle.getscreen()
+# t = turtle.Turtle()
+#
+# t.pensize(3)
+# t.speed(0)
+#
 # colors = ['red', 'blue', 'yellow', 'green', 'black', 'white', 'orange', 'Salmon', 'Pink']
 #
 #
@@ -79,7 +79,7 @@ t.speed(0)
 # user_input = input('che tedad dayere doos dari? ')
 #
 # make_mandala(int(user_input))
-#
+# #
 # t.speed(6)
 # t.pencolor('blue')
 # t.penup()
@@ -91,12 +91,12 @@ t.speed(0)
 # # t.goto(300, 0)
 # # t.pendown()
 # t.home()
-t.dot(60, 'blue')
+# t.dot(60, 'blue')
 # t.dot(360, 'red')
-t.color('red')
-t.begin_fill()
-t.circle(100)
-t.end_fill()
+# t.color('red')
+# t.begin_fill()
+# t.circle(100)
+# t.end_fill()
 turtle.mainloop()
 
 
