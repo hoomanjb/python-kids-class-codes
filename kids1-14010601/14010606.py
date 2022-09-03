@@ -64,7 +64,7 @@ e = 3j + 19
 # print('#!@$#$%#^%^&')
 
 
-phone = ''
-
-if phone == '':
-    print('shomare mobileto vared nakardi')
+# phone = ''
+#
+# if phone == '':
+#     print('shomare mobileto vared nakardi')
