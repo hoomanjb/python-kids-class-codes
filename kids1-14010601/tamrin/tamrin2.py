@@ -1,0 +1,25 @@
+import turtle
+
+s = turtle.getscreen()
+turtle.title('new project')
+turtle.bgcolor('white')
+t = turtle.Turtle()
+
+t.pensize(7)
+t.shapesize(2)
+t.speed(2)
+t.color('blue')
+t.goto(0,100)
+t.penup()
+t.goto(50, 0)
+t.pendown()
+t.color('brown')
+t.circle(50)
+t.color('blue')
+t.goto(0, 0)
+t.goto(0, 100)
+t.goto(100, 100)
+t.goto(100, 0)
+t.goto(0, 0)
+
+turtle.mainloop()
