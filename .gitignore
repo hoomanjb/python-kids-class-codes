@@ -133,3 +133,6 @@ dmypy.json
 .vscode
 venv
 venv/
+test.db
+kids3-14010718/test.db
+
