@@ -51,7 +51,6 @@ t.goto(50, -100)
 t.goto(-150, -100)
 t.end_fill()
 
-
 # tri
 t.penup()
 t.goto(-150, 100)
