@@ -95,11 +95,22 @@ text = 'test@gmail'
 
 # #########################################
 # 1. Write a Python program to calculate the length of a string.
-a = 'hello'
+# a = 'hello'
 
+# 3. Write a Python program to get a string made of the first 2 and the last 2 chars from a given a string. If the string length is less than 2, return instead of the empty string.
+#
+# Sample String : 'w3asdasdasw3'
+# Expected Result : 'w3w3'
+# Sample String : 'w'
+# Expected Result : None
 
+def exam_3(text):
+    if len(text) < 2:
+        return None
+    else:
+        return text[:2] + text[-2:]
 
-
-
+a = 'w3jkflksjdfgnldkjfgnZ3'
+print(exam_3(a))  # w3Z3
 
 
