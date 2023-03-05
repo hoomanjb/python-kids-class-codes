@@ -97,4 +97,4 @@ age = 20
 # print(a)
 # print(b)
 
-# deep copy va shadow copy
+# deep copy va shallow copy
