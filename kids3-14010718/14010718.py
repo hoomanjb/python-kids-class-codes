@@ -9,6 +9,7 @@ user_score = 0
 ai_score = 0
 user_choice = ''
 ai_choice = ''
+result = ''
 
 def how_is_winner(pc, user):
     # result -> 0 = equal , 1 = pc , 2 = user
@@ -41,6 +42,7 @@ def set_random_ai_choice():
 def show_result(user_choice, ai_choice):
     global ai_score
     global user_score
+    global result
     winner = how_is_winner(ai_choice, user_choice)
     if winner == 0:
         result = 'Mosavi'
@@ -50,19 +52,19 @@ def show_result(user_choice, ai_choice):
     else:
         result = 'User is winner'
         user_score += 1
-
-    text_box = tk.Text(master=window, height=15, width=30, bg='red', font='arial')
-    text_box.grid(row=4, column=1)
     message = f"""
     {result}
-    
+
     your choice is {user_choice}
     ai choice is {ai_choice}
-    
+
     your score is {user_score}
     ai score is {ai_score}
     """
-    text_box.insert(tk.END, message)
+    text_box.delete("1.0", "end")
+    text_box.insert('0.0', message)
+
+
 
 
 def sang():
@@ -97,6 +99,10 @@ kaghaz_button.grid(row=1, column=1)
 
 gheychi_button = tk.Button(text='Gheychi', bg='pink', width=10, command=gheychi)
 gheychi_button.grid(row=1, column=2)
+
+text_box = tk.Text(master=window, height=15, width=30, bg='gray', font='arial')
+text_box.grid(row=2, column=1)
+text_box.insert(tk.END, '')
 
 
 window.mainloop()
