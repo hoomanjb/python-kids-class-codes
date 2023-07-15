@@ -133,3 +133,9 @@ for a in range(1, 11):
         #     pass
     print('########################')
 
+
+# 10 ta soal az karbar beporsin
+# agar doros javab dad 1 emtiaz behesh bedin
+# 3 bar behesh forsat bedin
+# 10ta soal tamoom shod emtiaz shoma 5 shode
+
